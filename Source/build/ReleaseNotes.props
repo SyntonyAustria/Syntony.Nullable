@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <copyright file="ReleaseNotes.props" company="J.P.Hahnl"> -->
+<!--     Copyright © 2017 - 2025 by J.P.Hahnl® / Ing. Josef Hahnl, MBA - j.p.hahnl@outlook.com - All rights reserved. -->
+<!-- </copyright> -->
+<!-- <author>Hahnl - hahnl</author> -->
+<!-- <email>j.p.hahnl@outlook.com</email> -->
+<!-- <date>26.04.2025 11:36:37</date> -->
+<!-- <information solution="J.P.Hahnl.Nullable" project="J.P.Hahnl.Nullable" framework=".NETStandard,Version=v2.0" kind="Windows (C# - csproj)"> -->
+<!--     <file type=".props" created="26.04.2025 10:37:40" modified="26.04.2025 11:36:37" lastAccess="26.04.2025 11:36:37"> -->
+<!--         D:\J.P.Hahnl\Proj\Nullable\Source\J.P.Hahnl.Nullable\Source\build\ReleaseNotes.props -->
+<!--     </file> -->
+<!--     <lineStatistics total="59" contentLines="57" blankLines ="2" codeLines="57" codeRatio="96.61 %" allCommentLines="24" commentLines="24" headerLines="24"/> -->
+<!--     <language>MSBUILD</language> -->
+<!-- </information> -->
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <remark> -->
+<!-- WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have created a backup copy. -->
+<!--           Incorrect changes to this file will make it impossible to load or build your projects from the command-line or the IDE. -->
+<!-- </remark> -->
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <Properties> -->
+<!--     <Property>PackageReleaseNotes</Property> -->
+<!-- </Properties> -->
+<!-- ************************************************************************************************************************************************************* -->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup Condition="'$(MSBuildProjectName)'=='$(Company).Nullable'">
+        <PackageReleaseNotes>
+            <![CDATA[
+            A source code only package which allows you to use .NET's nullable attributes in older target frameworks like .NET Standard 2.0 or the "old" .NET Framework.
+            This package is a source code only package. It contains the source code of the nullable attributes and the necessary build targets to use them in your project.
+
+            * Final release includes all C# 8 nullable attributes
+            This release covers the following attributes:
+
+            - AllowNullAttribute
+            - CallerArgumentExpressionAttribute
+            - DisallowNullAttribute
+            - DoesNotReturnAttribute
+            - DoesNotReturnIfAttribute
+            - FeatureGuardAttribute
+            - FeatureSwitchDefinitionAttribute
+            - MaybeNullAttribute
+            - MaybeNullWhenAttribute
+            - MemberNotNullAttribute
+            - MemberNotNullWhenAttribute
+            - NotNullAttribute
+            - NotNullIfNotNullAttribute
+            - NotNullWhenAttribute
+            - StringSyntaxAttribute
+            - SupportedOSPlatformAttribute
+            - SupportedOSPlatformGuardAttribute
+            - TargetPlatformAttribute
+            - UnsupportedOSPlatformAttribute
+            - UnsupportedOSPlatformGuardAttribute
+            ]]>
+        </PackageReleaseNotes>
+    </PropertyGroup>
+</Project>

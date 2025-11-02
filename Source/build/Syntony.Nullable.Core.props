@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <copyright file="J.P.Hahnl.Nullable.Core.props" company="J.P.Hahnl"> -->
+<!--     Copyright © 2017 - 2025 by J.P.Hahnl® / Ing. Josef Hahnl, MBA - j.p.hahnl@outlook.com - All rights reserved. -->
+<!-- </copyright> -->
+<!-- <author>Hahnl - hahnl</author> -->
+<!-- <email>j.p.hahnl@outlook.com</email> -->
+<!-- <date>26.04.2025 10:47:13</date> -->
+<!-- <information solution="J.P.Hahnl.Nullable" project="J.P.Hahnl.Nullable" framework=".NETStandard,Version=v2.0" kind="Windows (C# - csproj)"> -->
+<!--     <file type=".props" created="26.04.2025 10:37:40" modified="26.04.2025 10:47:13" lastAccess="26.04.2025 10:47:13"> -->
+<!--         D:\J.P.Hahnl\Proj\Nullable\Source\J.P.Hahnl.Nullable\Source\build\J.P.Hahnl.Nullable.Core.props -->
+<!--     </file> -->
+<!--     <lineStatistics total="40" contentLines="38" blankLines ="2" codeLines="38" codeRatio="95.00 %" allCommentLines="24" commentLines="24" headerLines="24"/> -->
+<!--     <language>MSBUILD</language> -->
+<!-- </information> -->
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <remark> -->
+<!-- WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have created a backup copy. -->
+<!--           Incorrect changes to this file will make it impossible to load or build your projects from the command-line or the IDE. -->
+<!-- </remark> -->
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <Properties> -->
+<!--     <Property>PackagePathStaticAnalyseAttributesFolder</Property> -->
+<!-- </Properties> -->
+<!-- ************************************************************************************************************************************************************* -->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PackagePathStaticAnalyseAttributesFolder>StaticAnalyseAttributes</PackagePathStaticAnalyseAttributesFolder>
+  </PropertyGroup>
+</Project>

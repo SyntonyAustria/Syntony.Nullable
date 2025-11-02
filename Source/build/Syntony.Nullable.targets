@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <copyright file="J.P.Hahnl.Nullable.targets" company="J.P.Hahnl"> -->
+<!--     Copyright © 2017 - 2025 by J.P.Hahnl® / Ing. Josef Hahnl, MBA - j.p.hahnl@outlook.com - All rights reserved. -->
+<!-- </copyright> -->
+<!-- <author>Hahnl - hahnl</author> -->
+<!-- <email>j.p.hahnl@outlook.com</email> -->
+<!-- <date>26.04.2025 10:47:08</date> -->
+<!-- <information solution="J.P.Hahnl.Nullable" project="J.P.Hahnl.Nullable" framework=".NETStandard,Version=v2.0" kind="Windows (C# - csproj)"> -->
+<!--     <file type=".targets" created="26.04.2025 10:37:40" modified="26.04.2025 10:47:08" lastAccess="26.04.2025 10:47:08"> -->
+<!--         D:\J.P.Hahnl\Proj\Nullable\Source\J.P.Hahnl.Nullable\Source\build\J.P.Hahnl.Nullable.targets -->
+<!--     </file> -->
+<!--     <lineStatistics total="34" contentLines="32" blankLines ="2" codeLines="32" codeRatio="94.12 %" allCommentLines="21" commentLines="21" headerLines="21"/> -->
+<!--     <language>MSBUILD</language> -->
+<!-- </information> -->
+<!-- ************************************************************************************************************************************************************* -->
+<!-- <remark> -->
+<!-- WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have created a backup copy. -->
+<!--           Incorrect changes to this file will make it impossible to load or build your projects from the command-line or the IDE. -->
+<!-- </remark> -->
+<!-- ************************************************************************************************************************************************************* -->
+<!-- ************************************************************************************************************************************************************* -->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+</Project>
