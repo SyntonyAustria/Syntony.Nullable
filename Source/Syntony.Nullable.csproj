@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- ******************************************************************************************************************************************************************* -->
-<!-- <copyright file="" company="J.P.Hahnl"> -->
-<!--     Copyright © 2017 - 2025 by J.P.Hahnl® / Ing. Josef Hahnl, MBA - j.p.hahnl@outlook.com - All rights reserved. -->
+<!-- <copyright file="" company="Syntony"> -->
+<!--     Copyright © 2017 - 2025 by Josef Hahnl — Syntony Austria — All rights reserved. -->
 <!-- </copyright> -->
 <!-- <author>Hahnl - hahnl</author> -->
-<!-- <email>j.p.hahnl@outlook.com</email> -->
-<!-- <date>02.11.2025 17:27:22</date> -->
+<!-- <email>SyntonyAustria@outlook.com</email> -->
+<!-- <date>02.11.2025 17:53:36</date> -->
 <!-- <information solution="Syntony.Nullable" project="Syntony.Nullable" framework="<unknown>" kind=""> -->
-<!--     <file type=".csproj" created="02.11.2025 09:51:16" modified="02.11.2025 17:27:22" lastAccess="02.11.2025 17:27:22"> -->
+<!--     <file type=".csproj" created="02.11.2025 09:51:16" modified="02.11.2025 17:53:36" lastAccess="02.11.2025 17:53:36"> -->
 <!--         D:\Syntony\Proj\Nullable\Source\Syntony.Nullable\Source\Syntony.Nullable.csproj -->
 <!--     </file> -->
 <!--     <lineStatistics total="412" contentLines="355" blankLines ="57" codeLines="340" codeRatio="82.52 %" allCommentLines="102" commentLines="102" headerLines="61"/> -->
@@ -62,7 +62,7 @@
 <!-- ******************************************************************************************************************************************************************* -->
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;netstandard2.1;net472;net48;net20;net6.0;net8.0;$(DefaultTargetFramework)</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0;netstandard2.1;net472;net48;net20;net8.0;$(DefaultTargetFramework)</TargetFrameworks>
         <RootNamespace>System.Diagnostics.CodeAnalysis</RootNamespace>
         <Description>Use .NET Core 3.0's new nullable attributes in older target frameworks.</Description>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -77,7 +77,7 @@
         <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
         <GenerateCompanyInternalsVisibleToAttributes>false</GenerateCompanyInternalsVisibleToAttributes>
         <NoWarn>$(NoWarn);CA1014;CA1016;S3904;CS8032</NoWarn>
-        <Version>1.5.1</Version>
+        <Version>1.5.2</Version>
 
         <!-- Prevent any kind of magic. -->
         <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
