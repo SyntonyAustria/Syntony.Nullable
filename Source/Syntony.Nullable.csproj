@@ -77,7 +77,7 @@
         <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
         <GenerateCompanyInternalsVisibleToAttributes>false</GenerateCompanyInternalsVisibleToAttributes>
         <NoWarn>$(NoWarn);CA1014;CA1016;S3904;CS8032</NoWarn>
-        <Version>1.5.2</Version>
+        <Version>1.6.0</Version>
 
         <!-- Prevent any kind of magic. -->
         <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
@@ -143,12 +143,9 @@
             <StartsWithNetCore3>false</StartsWithNetCore3>
             <StartsWithNetCore3 Condition="$([System.String]::Copy(%(Filename)).StartsWith('CallerArgumentExpression'))">true</StartsWithNetCore3>
 
-            <!-- MemberNotNullAttribute | MemberNotNullWhenAttribute | SupportedOSPlatformAttribute | TargetPlatformAttribute | UnsupportedOSPlatformAttribute start with .NET5 -->
+            <!-- MemberNotNullAttribute | MemberNotNullWhenAttribute | SupportedOSPlatformAttribute | TargetPlatformAttribute | UnsupportedOSPlatformAttribute | IsExternalInit start with .NET5 -->
             <StartsWithNet5>false</StartsWithNet5>
-            <StartsWithNet5 Condition="$([System.String]::Copy(%(Filename)).StartsWith('MemberNotNull'))
-                            OR $([System.String]::Copy(%(Filename)).StartsWith('SupportedOSPlatformAttribute'))
-                            OR $([System.String]::Copy(%(Filename)).StartsWith('UnsupportedOSPlatformAttribute'))
-                            OR $([System.String]::Copy(%(Filename)).StartsWith('TargetPlatformAttribute'))">true</StartsWithNet5>
+            <StartsWithNet5 Condition="$([System.String]::Copy(%(Filename)).StartsWith('MemberNotNull'))&#xD;&#xA;                            OR $([System.String]::Copy(%(Filename)).StartsWith('SupportedOSPlatformAttribute'))&#xD;&#xA;                            OR $([System.String]::Copy(%(Filename)).StartsWith('UnsupportedOSPlatformAttribute'))&#xD;&#xA;                            OR $([System.String]::Copy(%(Filename)).StartsWith('IsExternalInit'))&#xD;&#xA;                            OR $([System.String]::Copy(%(Filename)).StartsWith('TargetPlatformAttribute'))">true</StartsWithNet5>
 
             <!-- SupportedOSPlatformGuardAttribute | UnsupportedOSPlatformGuardAttribute starts with .NET6 -->
             <StartsWithNet6>false</StartsWithNet6>

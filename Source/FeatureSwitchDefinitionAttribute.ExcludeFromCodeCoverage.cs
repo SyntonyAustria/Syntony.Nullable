@@ -1,15 +1,15 @@
-﻿// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// <copyright file="FeatureSwitchDefinitionAttribute.ExcludeFromCodeCoverage.cs" company="Syntony">
-//     Copyright © 2017 - 2024 by J.P.Hahnl® - All rights reserved.
+﻿// -------------------------------------------------------------------------------------------------------------------------------------------------------------
+// <copyright file="FeatureSwitchDefinitionAttribute.ExcludeFromCodeCoverage.cs" company="J.P.Hahnl">
+//     Copyright © 2017 - 2025 by Syntony® / Ing. Josef Hahnl, MBA - SyntonyAustria@outlook.com - All rights reserved.
 // </copyright>
-// <author>Ing. Josef Hahnl, MBA - hahnl</author>
-// <email>syntony@aon.at</email>
-// <date>20.11.2024 09:47:12</date>
-// <information solution="J.P.Hahnl.Kernel.Nullable" project="J.P.Hahnl.Kernel.Nullable" framework=".NETStandard,Version=v2.0" kind="Windows (C# - csproj)">
-//     <file type=".cs" created="20.11.2024 09:39:13" modified="20.11.2024 09:47:12" lastAccess="20.11.2024 09:47:12">
-//         D:\J.P.Hahnl\Proj\Kernel\Source\J.P.Hahnl.Kernel.Nullable\Source\FeatureSwitchDefinitionAttribute.ExcludeFromCodeCoverage.cs
+// <author>Hahnl - hahnl</author>
+// <email>j.p.hahnl@outlook.com</email>
+// <date>12.11.2025 09:33:16</date>
+// <information solution="Syntony.Nullable" project="Syntony.Nullable" framework=".NETStandard,Version=v2.0" kind="Windows (C# - csproj)">
+//     <file type=".cs" created="02.11.2025 09:51:16" modified="12.11.2025 09:33:16" lastAccess="12.11.2025 09:33:16">
+//         D:\Syntony\Proj\Nullable\Source\Syntony.Nullable\Source\FeatureSwitchDefinitionAttribute.ExcludeFromCodeCoverage.cs
 //     </file>
-//     <lineStatistics total="52" netLines="49" blankLines ="3" codeLines="46" codeRatio="88.46 %" allCommentLines="30" commentLines="1" headerLines="29" documentationLines="3"/>
+//     <lineStatistics total="52" contentLines="49" blankLines ="3" codeLines="17" codeRatio="32.69 %" allCommentLines="30" commentLines="30" headerLines="29"/>
 //     <language>C#</language>
 //     <namespace>System.Diagnostics.CodeAnalysis</namespace>
 //     <class>FeatureSwitchDefinitionAttribute</class>
@@ -26,7 +26,7 @@
 // <summary>
 //     Indicates that the specified public static boolean get-only property corresponds to the feature switch specified by name.
 // </summary>
-// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
 #if !NULLABLE_ATTRIBUTES_DISABLE
 #nullable enable
 #pragma warning disable
